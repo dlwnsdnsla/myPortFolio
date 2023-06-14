@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>포트폴리오</title>
+		<link href="css/onepage2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>   
+
+<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script> 
+
+<script type="text/javascript">
+	$(function(){
+		$(".ic_menu").on("click",function(){
+		$("#menu").animate({marginRight:"300"},300);
+	});
+
+	$(".close").on("click",function(){
+		$("#menu").animate({marginRight:"-300"},300);
+	});
+	});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+    var nav = $('nav');
+    var navoffset = $('nav').offset();  
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= navoffset.top) {  
+            nav.css('position','fixed').css('top',0); 
+        }else {
+            nav.css('position','absolute').css('top',0); 
+        }
+    });
+});
+</script>
+
+
+	</head>
+	
+	<body>
+	
+<header>
+<div id="header_top">
+		<nav>
+		 <p class="title">LeeJunWoo's <span style="color:deepskyblue;">PORTFOLIO</span></p>
+          <ul id="gnb">
+		    <li><a href="#section1" class="nav-btn a">About</a></li>
+			<li><a href="#section2" class="nav-btn a">Web 1</a></li>
+			<li><a href="#section3" class="nav-btn a">Web 2</a></li>
+			<li><a href="#section4" class="nav-btn a">Web 3</a></li>
+		  </ul>
+		  <p class="ic_menu"><img src="images/ic_menu.jpg" alt=""></p>
+		</nav>
+		<div class="me"><img src="images/profle2.png"  alt=""></div>
+</div>
+</header>	
+
+<nav id="menu">
+		<ul id="gnb2">
+		<li><a href="#section1" class="nav-btn a">About</a></li>
+		<li><a href="#section2" class="nav-btn a">Web 1</a></li>
+		<li><a href="#section3" class="nav-btn a">Web 2</a></li>
+		<li><a href="#section4" class="nav-btn a">Web 3</a></li>
+		</ul>
+		<p class="close">X</p>
+</nav>
+
+
+<div id="container">
+		<section id="section1" class="page1" >
+			<div id="about">
+				
+				<div>
+					<h1>eduation</h1>
+					<p>이준우<br>
+					 1995.02.19<br>
+					010-7392-9599<br>
+					서울특별시 광진구<br>
+					toktokjw1995@naver.com<br></p>
+				</div>
+				<div>
+					<h1>about me</h1>
+					<p>2022.12 - 2023.06<br>
+					그린 컴퓨터 아카데미<br>
+					프론트엔드 과정<br>
+					2013.03 - 2019.08<br>
+					동양대학교 컴퓨터정보전학과 졸업</p>
+				</div>
+				<div class="sk">
+					<h1>skill</h1>
+				<p>html5,css3,<br>
+				Photoshop,illustrator, Pigma<br>
+				Javascript,jQuery, Vue
+				<br><br><br></p>
+				</div>							
+			</div>
+		</section>
+
+		<section id="section2" class="page2">
+		 <div id="page2">
+				<div class="page2_top">
+					<p class="page2_title">web1</p>
+				</div>
+
+				<div class="page2_cont">
+					<div class="page2_cont1"><img src="images/web1.png" alt=""></div><!--page_cont1-->
+
+					<div class="page2_cont2">
+						<img src="images/jjak.png" alt="">
+						<p class="txt1_t">기업형 페이지 clone코딩</p>
+						<p class="txt1">기존 cafe24에 올라와있는 기업형 페이지를 clone코딩한 웹페이지</p>
+						
+						<div class="a1_wrap">
+							<div><a href="images/2_port1.pdf"  target="_black">기획서</a></div>
+							<div><a href="https://dlwnsdnsla.github.io/fullpage/" target="_black">pc</a></div>
+						</div>
+					</div><!--page_cont2-->
+				</div><!--page2_Cont-->
+
+
+				<p class="pagecount">1</p>
+		 </div><!--page2-->
+		</section>
+
+		<section id="section3" class="page3">
+		   <div id="page2">
+				<div class="page2_top">
+					<p class="page2_title">web2</p>
+				</div>
+
+				<div class="page2_cont">
+					<div class="page2_cont1"><img src="images/web2.png" alt=""></div><!--page_cont1-->
+					<div class="page2_cont2">
+					<img src="images/jjak.png" alt="">
+					<p class="txt1_t">lecamp(팀 프로젝트)</p>
+					<p class="txt1">캠핑장 추천 및 검색 사이트</p>
+					<div class="a2_wrap">
+						<div><a href="images/2_port2.pdf"  target="_black">기획서</a></div>
+						<div><a href="https://projectgroup01.github.io/lecamp/" target="_black">pc</a></div>
+					</div><!--a1_wrap-->
+					</div><!--page_cont2-->
+				</div><!--page2_Cont-->
+
+				<p class="pagecount">2</p>
+		 </div><!--page2-->
+		</section>
+
+		<section id="section4" class="page4">
+		   <div id="page2">
+				<div class="page2_top">
+					<p class="page2_title">web3</p>
+				</div>
+
+				<div class="page2_cont">
+					<div class="page2_cont1"><img src="images/web3.png" alt=""></div><!--page_cont1-->
+					<div class="page2_cont2">
+					<img src="images/jjak.png" alt="">
+					<p class="txt1_t">오늘의 집</p>
+					<p class="txt1">기존 오늘의 집 사이트를 리뉴얼한 홈페이지</p>
+					<div class="a2_wrap">
+						<div><a href="images/2_port3.pdf"  target="_black">기획서</a></div>
+						<div><a href="https://login-c396a.web.app/"  target="_black">pc</a></div>
+					</div><!--a2_wrap-->
+					</div><!--page_cont2-->
+				</div><!--page2_Cont-->
+
+				<p class="pagecount">3</p>
+		 </div><!--page2-->
+		</section>
+
+
+		
+
+
+	</div>
+
+
+<script>
+  $(document).ready(function(){
+      $('nav a').click(function(e){
+		    $.scrollTo(this.hash || 0, 500);
+			e.preventDefault();
+     });
+  });
+</script>
+
+	</body>
+	
+</html>
